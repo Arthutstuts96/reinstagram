@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+.barra-lateral{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 35px 60px 35px 24px;
+    max-width: 230px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid #c3c3c3;
+}
+.reinstagram-logo{
+    font-size: 20px;
+    font-family: "Playwrite BE VLG", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+    padding: 0 20px 10px 0;
+}

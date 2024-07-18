@@ -1,0 +1,6 @@
+.lista-lateral{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+}

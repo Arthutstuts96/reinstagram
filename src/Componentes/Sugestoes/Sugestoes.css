@@ -1,0 +1,61 @@
+.sugestoes{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-sugestoes{
+    padding: 40px;
+}
+.sugestoes-para-voce{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.sugestoes-para-voce .ver-tudo{
+    color: #000;
+}
+.sugestoes-para-voce .ver-tudo:hover{
+    cursor: pointer;
+    color: gray;
+}
+.lista-sugestoes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+/* Card sugestões */
+.card-sugestoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+}
+.foto-perfil-sugestoes{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card-lado-direito{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card-sugestoes .texto-azul{
+    cursor: pointer;
+    align-self: center;
+    font-size: 14px;
+    color: rgb(0, 153, 255);
+}
+.card-sugestoes .texto-azul:hover{
+    color: rgb(0, 0, 116);
+}
+.card-lado-direito .textos .nome-perfil{
+    cursor: pointer;
+    padding-bottom: 4px;
+    font-size: 14px;
+}
+.card-lado-direito .textos .subtexto{
+    font-size: 14px;
+    color: #9b9b9b;
+}

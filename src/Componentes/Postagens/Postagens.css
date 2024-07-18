@@ -1,0 +1,63 @@
+.postagens{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Card postagem */
+.card-postagem{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card-postagem .mais{
+    font-size: 24px;
+}
+.area-perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foto-nome{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card-postagem .icones-interacao{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.icones-interacao-lado-direito{
+    display: flex;
+    gap: 16px;
+}
+.card-postagem .icone:hover{
+    cursor: pointer;
+    color: gray;
+}
+.paragrafo-negritado{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.imagem-postagem{
+    width: 450px;
+    height: 450px;
+    border-radius: 4px;
+}
+.foto-perfil-postagem{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.caixa-comentarios{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.descricao{
+    inline-size: 460px;
+    word-break: break-all;
+}

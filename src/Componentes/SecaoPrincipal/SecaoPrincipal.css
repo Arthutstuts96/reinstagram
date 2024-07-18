@@ -1,0 +1,4 @@
+main{
+    margin-left: 248px;     /*Largura da sidebar + margem*/
+    display: flex;
+}
